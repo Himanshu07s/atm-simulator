@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Himanshu Atm simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "atm">
+        <h2>Himanshu Atm Machine</h2>
+        <div id="login">
+         <p>Enter pin</p>
+         <input type="password" id="pin">
+         <button onclick="login()">Login</button>
+        </div>
+
+          <div id="menu" style="display: none;">
+          <p id="balance">Balance: ₹100000</p>
+           <button onclick="checkBalance()">Check Balance </button>
+           <button onclick="deposit()">deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+
+
+          </div>
+        </div>
+        <script src="script.js"> </script>
+</body>
+</html>
